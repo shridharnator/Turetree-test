@@ -8,28 +8,18 @@ int main() {
 			flag++;
 		}
 		if (flag != 0) {
-			for (int k = 0; k < 1+(flag/2); k++) {
+			for (int k = 0; k < 1 + (flag / 2); k++) {
 				printf(" ");
 			}
 		}
 		for (int i = 1; i < 7; i++) {
 			if ((i + flag) < 8) {
-				
+
 				printf("%i", i + flag);
-				
-				}
-				//printf("\n");
-			
+
 			}
-		}return 0;
-	}
+			//printf("\n");
 
-
-
-
-
-
-
-
-
-	
+		}
+	}return 0;
+}
